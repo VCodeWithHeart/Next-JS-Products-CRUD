@@ -74,7 +74,7 @@ const page = () => {
           value={product?.description || ""}
         />
         <Input
-          type="text"
+          type="number"
           name="price"
           placeholder="Enter product price"
           onChange={(e) => inputFn(e)}
